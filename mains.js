@@ -1,11 +1,17 @@
 const form = document.getElementById('form_valores');
 
-function confirmaValores(primeiro_valor, segundo_valor){
-    const confirmação = 
+function confirmaValores(primeiroValor, segundoValor){
+    const primeiroValor = document.getElementById('primeiroValor')
+    const segundoValor = document.getElementById('segundoValor')
+
+    if(segundoValor > primeiroValor){
+        return true;
+        
+    }else{
+        return false;
+    }
 }
 
 form.addEventListener('submit', function (e){
     e.preventDefault();
 })
-
-console.log(form);

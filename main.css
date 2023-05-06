@@ -42,13 +42,17 @@ button{
     margin-top: 8px;
     font-weight: bold;
     font-size: 13px;
+    border-radius: 5px;
 }
 
 p{
 
     margin-top: 8px;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-form button a:hover{
+.container button a:hover{
     background-color: #404fbf;
 }
